@@ -13,7 +13,7 @@ First player to get 3 marks in a row vertically, horizontally, or diagonally win
 When all 9 squares are marked, the game is over, win or tie
 
 LOGIC
-Prompt player, do they want X or O?
+Prompt player, do you want X or O?
 Display board to user
 Prompt player 1, pick a square to mark, make a move
 Validate board, check if there is a winner or whether board is filled
@@ -31,6 +31,8 @@ Which logic is getting repeated multiple times?
     3. Is the board filled?
 
 """
+# Miscellaneous notes
+
 # Player 1 makes a move
 # Display the board
 # Check for the winner
@@ -41,7 +43,7 @@ Which logic is getting repeated multiple times?
 # Check for the winner
 # Check if the board is filled
 
-# Go back and clean up/comment out all unwanted code, i.e. inserted check print statements, refactor, and optimize.
+# Review and clean up/comment out all unwanted code, i.e. inserted check print statements, refactor, and optimize.
 
 # Can add invalid input intake and message
 # Can add edit mark feature
@@ -228,14 +230,14 @@ def checkBoardFilled():
     return totalMoves == 9
 """
 
-# Now have all the logic for the game.
+# Logic complete.
 
-# Now need to create game loop.
-# Use code logic skeleton to ensure all required steps are accounted for.
-# And refactor as necessary to simplify code.
+# Next, game loop.
+# Implementing code logic skeleton to ensure all required steps accounted for.
+# Refactor.
 
 
-# Wrap in function so can exit the function when the game ends.
+# Wrapping in function so can exit the function when the game ends.
 # With loops only, break. But within functions, return.
 def ticTacToe():
     while True:
